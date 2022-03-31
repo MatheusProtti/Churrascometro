@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(./img/fundoPicanha.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-70%, -50%);
+}
+
+#conteudo{
+    max-width: 340px;
+    text-align: center;
+    background-color: rgba(45, 45, 49, 0.438);
+    border-radius: 10px;
+    color: white;
+    padding: 25px;
+}
+
+input{
+    padding: 3px;
+    margin-bottom: 15px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    margin:  auto;
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
